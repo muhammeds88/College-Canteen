@@ -28,7 +28,7 @@
   z-index: 2;
   transform: rotate(0deg);
   border-radius: 0px 0px 0px 0px;
-  background: #7c7c7cff;
+  background: rgb(255, 255, 255);
   filter: blur(2.674999952316284px);
 }
 .face-light-1-4020 {
@@ -458,7 +458,7 @@
   z-index: 0;
   transform: rotate(0deg);
   border-radius: 24px 24px 24px 24px;
-  background: #ffffffff;
+  background: rgb(255, 255, 255);
 }
 .see-menu-1-450 {
   position: absolute;
@@ -1640,29 +1640,6 @@
   border-radius: 0px 5px 5px 0px;
   background: #ffffffff;
   box-shadow: 0px 0px 30.899999618530273px -7px rgba(0, 0, 0, 0.44999998807907104);
-}
-.-1-1683 {
-  position: absolute;
-  width: 18.80596923828125px;
-  height: 38.770050048828125px;
-  top: 0.0322265625px;
-  left: 8.208984375px;
-  opacity: 1;
-  z-index: 1;
-  transform: rotate(0deg);
-  text-align: left;
-  line-height: 0px;
-}
-.-1-1683-0 {
-  font-size: 26px;
-  font-family: Inter;
-  font-weight: 500;
-
-  text-decoration: none;
-  text-transform: none;
-  letter-spacing: -0.27px;
-  line-height: 27px;
-  color: #000000ff;
 }
 
 .review-1-86 {
