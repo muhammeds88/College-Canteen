@@ -8,15 +8,16 @@
 }
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/login.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/login.jpg) no-repeat center center;
   background-size: cover;
 }
 
 .login-box {
+  margin-right: 35vh;
   position: relative;
   width: 407px;
   height: 455px;
@@ -120,10 +121,22 @@ button {
 }
 @media (max-width:500px) {
   .login-box {
+    margin-right: 0vh;
     width:100%;
     height:100vh;
     border:none;
     border-radius:0;
+  }
+  .input-box {
+    width:290px;
+  }
+}
+@media (max-width:1024px) {
+  .login-box {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,.5);
   }
   .input-box {
     width:290px;
