@@ -1,0 +1,13 @@
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.loader {
+  width: 150px;
+  height: 150px;
+}
