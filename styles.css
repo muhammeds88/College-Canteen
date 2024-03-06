@@ -1,10 +1,11 @@
 body {
-  background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin: 0;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/login.jpg') center center;
+  backdrop-filter: blur(8px);
 }
 
 .loader {
