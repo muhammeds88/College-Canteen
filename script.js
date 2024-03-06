@@ -2,6 +2,6 @@
 function redirectToLogin() {
     window.location.href = './Webpages/Login/login.html';
   }
-// Set a timeout to redirect after 6 seconds (3 cycles)
-setTimeout(redirectToLogin, 6000);
+// Set a timeout to redirect after 4 seconds (2 cycles)
+setTimeout(redirectToLogin, 4000);
   
