@@ -1,5 +1,8 @@
 // script.js
 document.addEventListener("DOMContentLoaded", function() {
+    // Remove the blur effect when the page is fully loaded
+    document.body.style.filter = "none";
+    
     const links = document.querySelectorAll("a");
 
     links.forEach(link => {
@@ -7,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
             event.preventDefault();
             const href = this.getAttribute("href");
 
-            // Fade out animation
-            document.body.style.opacity = 0;
+            // Apply blur effect when navigating to the next page
+            document.body.style.filter = "blur(5px)";
 
             setTimeout(function() {
                 window.location.href = href;

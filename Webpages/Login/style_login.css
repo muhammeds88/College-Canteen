@@ -7,7 +7,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 body {
-  transition: opacity 0.5s ease-in-out;
+  filter: blur(5px); /* Apply a blur effect by default */
+  transition: filter 0.5s ease-in-out; /* Smooth transition for the blur effect */
 }
 .wrapper {
   display: flex;
