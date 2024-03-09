@@ -22,9 +22,9 @@ MAIN/
 │
 ├── Webpages/
 │   ├── Change Password/
-│   │   ├── change_password.html
-│   │   ├── style_change_password.css
-│   │   └── script_change_password.js
+│   │   ├── password.html
+│   │   ├── style_password.css
+│   │   └── script_password.js
 │   │
 │   ├── Forgot Password/
 │   │   ├── forgot.html
@@ -33,8 +33,7 @@ MAIN/
 │   │
 │   ├── Home/
 │   │   ├── home.html
-│   │   ├── style_home.css
-│   │   └── script_home.js
+│   │   └── style_home.css
 │   │
 │   ├── Login/
 │   │   ├── login.html
@@ -43,8 +42,7 @@ MAIN/
 │   │
 │   ├── Menu/
 │   │   ├── menu.html
-│   │   ├── style_menu.css
-│   │   └── script_menu.js
+│   │   └── style_menu.css
 │   │
 │   ├── Signup/
 │   │   ├── signup.html
@@ -76,7 +74,6 @@ MAIN/
 ├── index.html
 ├── script.js
 └── styles.css
-
 ```
 
 ## Usage
