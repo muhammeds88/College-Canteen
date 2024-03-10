@@ -6,7 +6,8 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/login.jpg') center center/cover; /* Adjusted background property */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/login.jpg") center center/cover; /* Adjusted background property */
   backdrop-filter: blur(8px);
 }
 
@@ -17,8 +18,8 @@ html {
 }
 
 .bg {
-  width: 100vw; /* Set width to 100% of viewport width */
-  height: 100vh; /* Set height to 100% of viewport height */
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

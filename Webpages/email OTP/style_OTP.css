@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 * {
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
 body {
-  filter: blur(5px); /* Apply a blur effect by default */
-  transition: filter 0.5s ease-in-out; /* Smooth transition for the blur effect */
+  filter: blur(5px);
+  transition: filter 0.5s ease-in-out;
 }
 .wrapper {
   display: flex;
@@ -16,7 +16,8 @@ body {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/login.jpg') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/login.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -27,7 +28,7 @@ body {
   height: 455px;
   background: transparent;
   border-radius: 10px;
-  border: 2px solid rgba(255,255,255,.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,15 +36,15 @@ body {
   backdrop-filter: blur(8px);
 }
 h2 {
-  font-size:2em;
-  color:#fff;
-  text-align:center;
+  font-size: 2em;
+  color: #fff;
+  text-align: center;
 }
 .input-box {
-  position:relative;
+  position: relative;
   display: flex;
   width: 300px;
-  margin:30px 0px;
+  margin: 30px 0px;
   justify-content: center;
 }
 .input-box input:focus {
@@ -51,70 +52,70 @@ h2 {
   box-shadow: 0 0 2px 2px rgb(116, 3, 3);
 }
 .input-box input {
-  width:12%;
-  height:50px;
+  width: 12%;
+  height: 50px;
   padding: 3%;
-  background:transparent;
+  background: transparent;
   border-radius: 5px;
   margin: 5px;
   border: 2px solid rgb(255, 255, 255);
-  outline:none;
-  font-size:1.5em;
+  outline: none;
+  font-size: 1.5em;
   font-weight: bold;
-  color:#fff;
+  color: #fff;
   outline: none;
   transition: all 0.1s;
 }
 button {
-  width:100%;
-  height:40px;
-  background-color:#fff;
-  border:none;
-  border-radius:40px;
-  cursor:pointer;
-  font-size:1em;
-  color:#000;
-  font-weight:500;
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1em;
+  color: #000;
+  font-weight: 500;
 }
 .register-link {
-  font-size:.9em;
-  color:#fff;
-  text-align:center;
-  margin:20px 0 10px;
+  font-size: 0.9em;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0 10px;
 }
 .test {
-  color:#000;
-  text-decoration:none;
-  font-weight:600;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
 }
 .register-link p a {
-  color:#fff;
-  text-decoration:none;
-  font-weight:600;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
 }
 .register-link p a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
-@media (max-width:500px) {
+@media (max-width: 500px) {
   .login-box {
     margin-right: 0vh;
-    width:100%;
-    height:100vh;
-    border:none;
-    border-radius:0px;
+    width: 100%;
+    height: 100vh;
+    border: none;
+    border-radius: 0px;
   }
   .input-box {
-    width:300px;
+    width: 300px;
   }
 }
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .login-box {
     margin-right: auto;
     margin-left: auto;
     border-radius: 10px;
-    border: 2px solid rgba(255,255,255,.5);
+    border: 2px solid rgba(255, 255, 255, 0.5);
   }
   .input-box {
-    width:300px;
+    width: 300px;
   }
 }
