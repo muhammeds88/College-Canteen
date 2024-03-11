@@ -1,4 +1,4 @@
-# College-Canteen
+![image](https://github.com/muhammeds88/College-Canteen/assets/108288413/2baf9562-9548-4b76-8137-2227d90b9bcb)# College-Canteen
 
 Welcome to the College Canteen repository!
 
@@ -86,7 +86,19 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 
 ## Contributors
 
-- [MTCodes01](https://github.com/MTCodes01)
-- [Fazalul Ameen](https://github.com/Fazalul-Ameen)
-- [SivaKumar-004](https://github.com/SivaKumar-004)
-- [MUHAMMED.S](https://github.com/muhammeds88)
+<blockquote style="border-left: 5px solid #f0ad4e; background-color: #fcf8e3; padding: 10px;">
+  <strong>MTCodes01</strong>
+  <br>
+  desc
+</blockquote>
+
+> [**Fazalul Ameen**](https://github.com/Fazalul-Ameen)
+  <blockquote style="color: green;">desc</blockquote>
+
+> [**SivaKumar-004**](https://github.com/SivaKumar-004)
+  <blockquote style="color: red;">desc</blockquote>
+
+> [**MUHAMMED.S**](https://github.com/muhammeds88)
+  <blockquote style="color: orange;">desc</blockquote>
+
+> <span style="color: blue;">This is a blue quote</span>
