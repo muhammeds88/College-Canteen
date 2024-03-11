@@ -1,12 +1,8 @@
-![image](https://github.com/muhammeds88/College-Canteen/assets/108288413/2baf9562-9548-4b76-8137-2227d90b9bcb)# College-Canteen
+# College-Canteen
 
 Welcome to the College Canteen repository!
 
-This website is designed to develop a software solution for managing the operations of our college canteen efficiently. The system provides functionality for both staff and customers, facilitating smooth transactions and enhancing the overall experience.
-
-## Usage
-
-To access the website, simply click [here](https://muhammeds88.github.io/College-Canteen/) to open in a web browser.
+This [website](https://muhammeds88.github.io/College-Canteen/) is designed to develop a software solution for managing the operations of our college canteen efficiently. The system provides functionality for both staff and customers, facilitating smooth transactions and enhancing the overall experience.
 
 ## Key features include:
 
@@ -19,6 +15,21 @@ To access the website, simply click [here](https://muhammeds88.github.io/College
 + Customer Management: Stores customer information, preferences, and order history to personalize the service and improve customer satisfaction.
 
 + Reporting and Analytics: Generates reports on sales, revenue, popular items, and customer feedback to facilitate data-driven decision-making.
+
+## TO-DO
+
+- [ ] Homepage Design
+- [ ] Menu Presentation
+- [ ] Online Ordering System
+- [ ] Payment Page Integration
+- [ ] Cart Functionality
+- [ ] Backend Development
+- [x] User Authentication UI
+- [ ] Feedback and Review Section
+- [ ] Responsive Design
+- [ ] Analytics Integration
+- [ ] Website Functionality
+- [ ] User Experience
 
 ## File Structure
 ```
@@ -84,21 +95,26 @@ MAIN/
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
+## Usage
+
+> [!TIP]
+> To access the website, simply click [here](https://muhammeds88.github.io/College-Canteen/) to open in a web browser.
+
 ## Contributors
 
-<blockquote style="border-left: 5px solid #f0ad4e; background-color: #fcf8e3; padding: 10px;">
-  <strong>MTCodes01</strong>
-  <br>
-  desc
-</blockquote>
-
-> [**Fazalul Ameen**](https://github.com/Fazalul-Ameen)
-  <blockquote style="color: green;">desc</blockquote>
-
-> [**SivaKumar-004**](https://github.com/SivaKumar-004)
-  <blockquote style="color: red;">desc</blockquote>
-
-> [**MUHAMMED.S**](https://github.com/muhammeds88)
-  <blockquote style="color: orange;">desc</blockquote>
-
-> <span style="color: blue;">This is a blue quote</span>
+> [!IMPORTANT]
+> **MTCodes01:** [GitHub Profile](https://github.com/MTCodes01)
+>
+> <blockquote style="color: blue;">desc</blockquote>
+>
+> **Fazalul Ameen:** [GitHub Profile](https://github.com/Fazalul-Ameen)
+>
+> <blockquote style="color: green;">desc</blockquote>
+>
+> **SivaKumar-004:** [GitHub Profile](https://github.com/SivaKumar-004)
+>
+> <blockquote style="color: red;">desc</blockquote>
+>
+> **MUHAMMED.S:** [GitHub Profile](https://github.com/muhammeds88)
+>
+> <blockquote style="color: orange;">desc</blockquote>
