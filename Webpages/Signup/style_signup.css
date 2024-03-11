@@ -1,15 +1,21 @@
+/* Importing Montserrat font */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+/* Global styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+/* Body styles */
 body {
   filter: blur(5px);
   transition: filter 0.5s ease-in-out;
 }
+
+/* Wrapper styles */
 .wrapper {
   display: flex;
   justify-content: flex-end;
@@ -21,6 +27,7 @@ body {
   background-size: cover;
 }
 
+/* Login box styles */
 .login-box {
   margin-right: 35vh;
   position: relative;
@@ -35,17 +42,23 @@ body {
   box-shadow: 0 0 10 rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(8px);
 }
+
+/* Heading styles */
 h2 {
   font-size: 2em;
   color: #fff;
   text-align: center;
 }
+
+/* Input box styles */
 .input-box {
   position: relative;
   width: 310px;
   margin: 30px 0;
   border-bottom: 1px solid #fff;
 }
+
+/* Label styles */
 .input-box label {
   position: absolute;
   top: 50%;
@@ -56,10 +69,14 @@ h2 {
   pointer-events: none;
   transition: 0.5s;
 }
+
+/* Input focus and valid styles */
 .input-box input:focus ~ label,
 .input-box input:valid ~ label {
   top: -5px;
 }
+
+/* Input styles */
 .input-box input {
   width: 100%;
   height: 50px;
@@ -70,6 +87,8 @@ h2 {
   color: #fff;
   padding: 0 35px 0 5px;
 }
+
+/* Icon styles */
 .input-box .icon {
   position: absolute;
   right: 8px;
@@ -77,6 +96,8 @@ h2 {
   color: #fff;
   transform: translateY(-50%);
 }
+
+/* Remember styles */
 .remember {
   margin: -15px 0 15px;
   font-size: 0.9em;
@@ -84,16 +105,24 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+
+/* Remember label input styles */
 .remember label input {
   margin-right: 3px;
 }
+
+/* Remember link styles */
 .remember a {
   color: #fff;
   text-decoration: none;
 }
+
+/* Remember link hover styles */
 .remember a:hover {
   text-decoration: underline;
 }
+
+/* Button styles */
 button {
   width: 100%;
   height: 40px;
@@ -105,25 +134,35 @@ button {
   color: #000;
   font-weight: 500;
 }
+
+/* Register link styles */
 .register-link {
   font-size: 0.9em;
   color: #fff;
   text-align: center;
   margin: 25px 0 10px;
 }
+
+/* Test class styles */
 .test {
   color: #000;
   text-decoration: none;
   font-weight: 600;
 }
+
+/* Register link paragraph anchor styles */
 .register-link p a {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
 }
+
+/* Register link paragraph anchor hover styles */
 .register-link p a:hover {
   text-decoration: underline;
 }
+
+/* Media queries */
 @media (max-width: 500px) {
   .login-box {
     margin-right: 0vh;
@@ -136,6 +175,7 @@ button {
     width: 290px;
   }
 }
+
 @media (max-width: 1024px) {
   .login-box {
     margin-right: auto;

@@ -1,6 +1,6 @@
+// Apply blur effect when the window finishes loading
 window.addEventListener("load", function () {
-  // Decrease blur gradually when the page starts loading
-  document.body.style.filter = "blur(5px)";
+  // Gradually decrease blur when the page starts loading
   let blurAmount = 5;
   const decreaseInterval = setInterval(function () {
     blurAmount -= 0.5;
@@ -9,9 +9,9 @@ window.addEventListener("load", function () {
   }, 40); // Update blur every 40 milliseconds
 });
 
+// Remove blur effect when the DOM content is fully loaded
 document.addEventListener("DOMContentLoaded", function () {
-  // Remove the blur effect when the page is fully loaded
-  document.body.style.filter = "none";
+  document.body.style.filter = "none"; // Remove blur effect
 
   // Apply blur effect when navigating to the next page
   const links = document.querySelectorAll("a");

@@ -1,3 +1,4 @@
+/* Styling for the body */
 body {
   margin: 0;
   padding: 0;
@@ -7,16 +8,18 @@ body {
   height: 100vh;
   width: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/login.jpg") center center/cover; /* Adjusted background property */
+    url("./images/login.jpg") center center/cover;
   backdrop-filter: blur(8px);
 }
 
+/* Styling for the HTML */
 html {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
+/* Styling for the background container */
 .bg {
   width: 100vw;
   height: 100vh;
@@ -25,6 +28,7 @@ html {
   align-items: center;
 }
 
+/* Styling for the loader container */
 .loader {
   width: 150px;
   height: 150px;
