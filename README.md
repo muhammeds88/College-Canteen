@@ -4,6 +4,10 @@ Welcome to the College Canteen repository!
 
 This website is designed to develop a software solution for managing the operations of our college canteen efficiently. The system provides functionality for both staff and customers, facilitating smooth transactions and enhancing the overall experience.
 
+## Usage
+
+To access the website, simply click [here](https://muhammeds88.github.io/College-Canteen/) to open in a web browser.
+
 ## Key features include:
 
 + Menu Management: Allows canteen staff to update and maintain the menu items, including prices and availability.
@@ -75,10 +79,6 @@ MAIN/
 ├── script.js
 └── styles.css
 ```
-
-## Usage
-
-To access the website, simply click [here](https://muhammeds88.github.io/College-Canteen/) to open in a web browser.
 
 ## License
 
