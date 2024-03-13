@@ -93,7 +93,8 @@ MAIN/
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
+> [!NOTE]
+> This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.
 
 ## Usage
 
@@ -103,18 +104,19 @@ This project is licensed under the GNU General Public License v3.0. See the [LIC
 ## Contributors
 
 > [!IMPORTANT]
-> **MTCodes01:** [GitHub Profile](https://github.com/MTCodes01)
+> **MUHAMMED.S:** [GitHub Profile](https://github.com/muhammeds88)
 >
-> <blockquote style="color: blue;">desc</blockquote>
+> <blockquote> desc </blockquote>
 >
 > **Fazalul Ameen:** [GitHub Profile](https://github.com/Fazalul-Ameen)
 >
-> <blockquote style="color: green;">desc</blockquote>
+> <blockquote> desc </blockquote>
 >
 > **SivaKumar-004:** [GitHub Profile](https://github.com/SivaKumar-004)
 >
-> <blockquote style="color: red;">desc</blockquote>
+> <blockquote> desc </blockquote>
 >
-> **MUHAMMED.S:** [GitHub Profile](https://github.com/muhammeds88)
+> **MTCodes01:** [GitHub Profile](https://github.com/MTCodes01)
 >
-> <blockquote style="color: orange;">desc</blockquote>
+> <blockquote> desc </blockquote>
+
