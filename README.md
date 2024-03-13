@@ -19,7 +19,7 @@ This [website](https://muhammeds88.github.io/College-Canteen/) is designed to de
 ## TO-DO
 
 - [ ] Homepage Design
-- [ ] Menu Presentation
+- [ ] Menu Design
 - [ ] Online Ordering System
 - [ ] Payment Page Integration
 - [ ] Cart Functionality
