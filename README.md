@@ -66,10 +66,19 @@ MAIN/
 │   │   ├── style_signup.css
 │   │   └── script_signup.js
 │   │
-│   └── email OTP/
-│       ├── OTP.html
-│       ├── style_OTP.css
-│       └── script_OTP.js
+│   ├── email OTP/
+│   │   ├── OTP.html
+│   │   ├── style_OTP.css
+│   │   └── script_OTP.js
+│   │
+│   └── Staff/
+│       ├── Change Menu/
+│       │   ├── change.html
+│       │   └── style_change.css
+│       │
+│       └── Check Order/
+│           ├── check.html
+│           └── style_check.css
 │
 ├── images/
 │   ├── image0.png
@@ -84,7 +93,10 @@ MAIN/
 │   ├── image9.png
 │   ├── image10.png
 │   ├── image11.png
-│   └── login.jpg
+│   ├── image12.png
+│   ├── login.jpg
+│   ├── logo_dark.jpg
+│   └── logo_light.jpg
 │
 ├── LICENSE
 ├── README.md
