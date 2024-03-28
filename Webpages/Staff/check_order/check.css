@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.head {
+    text-align: center;
+}
+
+.head hr {
+    width: 15%;
+    border: 1px solid;
+    margin: 10px auto;
+}
+
+.Tfood {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #8a8787;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #dfdfdf;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.search-bar {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 3px;
+    width: 200px;
+}
+
+.search-button {
+    padding: 9px 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.bar {
+    width: 90%;
+    height: 50px;
+    background-color: #3498db;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: height 0.3s ease;
+}
+.bar:hover {
+    background-color:#2980b9;
+}
+.bar.expand {
+    height: 80px;
+}
+.arrow {
+    font-size: 20px;
+}
+.indv-detl{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.names{
+    margin-right: 870px;
+}
+
