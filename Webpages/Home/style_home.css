@@ -6,6 +6,22 @@
   font-family: "Montserrat", sans-serif;
   color: white;
 }
+html {
+  height: 1vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../images/image12.png") no-repeat top center;
+  background-size: cover;
+  background-color: black;
+}
+.wrapper {
+  display: flex;
+  align-items: top;
+  width: 100%;
+  height: 1000vh;
+  justify-content: center;
+}
+/* Can remove the header after finishing */
 header {
   display: flex;
   justify-content: center;
@@ -16,67 +32,133 @@ header {
   text-decoration-color: rgb(0, 0, 0);
   background-color: rgb(0, 255, 140);
 }
-.order-now{
+.top {
+  display: flex;
+}
+.logo {
+  flex: 1;
+  position: relative;
+  top: 1vh;
+  left: 1vw;
+  background: url("../../images/logo_light.png") no-repeat;
+  height: 100px;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 2vh;
+  padding-right: 1vw;
+  margin-right: 10%;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 1vh 1vw;
+  margin-left: 3vw;
+  color: white;
+  cursor: default;
+  font-size: 1vw;
+}
+.navbar a:hover {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+}
+.navbar a.active {
+  background-color: red;
+  border-radius: 20px;
+}
+.navbar a.active:hover {
+  color: white;
+  background-color: rgb(192, 0, 0);
+  border-radius: 20px;
+}
+/* .mid {
+  display: flex;
+} */
+.red {
+  color: red;
+}
+.intro {
+  margin: 20vh 0px 0px 0px;
+}
+.intro p {
+  display: flex;
+  justify-content: center;
+}
+.intro span {
+  margin: 0px 10px;
+}
+.mode,
+.red {
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  font-size: 5vw;
+  font-style: normal;
+}
+.info {
+  color: rgb(216, 209, 209);
+  font-family: "Roboto", sans-serif;
+}
+.buttons {
+  display: flex;
+  margin: 0px;
+  margin-top: 5vh;
+  justify-content: center;
+  gap: 10px;
+}
+.order-now {
   background-color: red;
   color: white;
-  padding: 4px 4px 4px 4px;
-  border-radius: 7px;
+  text-decoration: none;
+  border: none;
+  padding: 1.5vh 1vw;
+  color: white;
+  cursor: default;
+  font-size: 1.5vw;
+  border-radius: 0.7vw;
 }
-.see-menu a {
-  color: red;
+.order-now .test_button {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
   text-decoration: none;
 }
 .see-menu {
-  margin-left: 20px;
+  margin-left: 5px;
   color: red;
-  padding: 4px 4px 4px 4px;
-  border-radius: 7px;
-}
-.red{
-  color: red;
-}
-.intro{
-  padding-left: 30px;
-}
-html {
-  height: 100vh;
-  width: 100%;
-  background: url("../../images/image12.png") no-repeat top center;
-  background-size: cover;
-  background-color: black;
-}
-.wrapper {
-  align-items: top;
-  width: 100%;
-  height: 1000vh;
-}
-.logo {
-  height: 100px;
-  width: 370px;
-  margin: 10px 10px 100px;
-  background: url("../../images/logo_light.png") no-repeat;
-}
-.navbar{
-  display: flex;
-  justify-content: flex-end;
-  padding-top: 5px;
-  padding-right: 8px;
-  margin-right: 10%;
-}
-.navbar nav {
-  display: flex;
-}
-.navbar a {
-  text-decoration: none; 
-  padding: 4px 7px; 
-  margin-left: 58px; 
-  color: white; 
-}
-.navbar a.active,
-.navbar a:hover {
-  background-color: red; 
-  border-radius: 4px; 
-}
-.navbar a.active {
+  text-decoration: none;
+  border: none;
+  padding: 1.5vh 1vw;
+  color: white;
   cursor: default;
+  font-size: 1.5vw;
+  border-radius: 0.7vw;
+}
+.see-menu .test_button {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+/* .right {
+  width: 27vw;
+  background: url(../../images/Pic_light.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2vh 0vw 0vw 40vw;
+  scale: 1.2;
+}  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #343434;
+  box-shadow: inset 0px 0px 15px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+  box-shadow: inset 0px 0px 10px rgb(33, 33, 33);
 }
