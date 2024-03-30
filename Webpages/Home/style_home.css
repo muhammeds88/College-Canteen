@@ -9,7 +9,7 @@
 html {
   height: 1vh;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../../images/image12.png") no-repeat top center;
   background-size: cover;
   background-color: black;
@@ -19,6 +19,7 @@ html {
   align-items: top;
   width: 100%;
   height: 1000vh;
+  justify-content: center;
 }
 /* Can remove the header after finishing */
 header {
@@ -72,17 +73,27 @@ header {
   background-color: rgb(192, 0, 0);
   border-radius: 20px;
 }
+/* .mid {
+  display: flex;
+} */
 .red {
   color: red;
 }
 .intro {
-  margin: 20vh 0px 0px 3vw;
+  margin: 20vh 0px 0px 0px;
+}
+.intro p {
+  display: flex;
+  justify-content: center;
+}
+.intro span {
+  margin: 0px 10px;
 }
 .mode,
 .red {
   font-family: "Roboto", sans-serif;
   font-weight: 1000;
-  font-size: 3vw;
+  font-size: 5vw;
   font-style: normal;
 }
 .info {
@@ -90,7 +101,11 @@ header {
   font-family: "Roboto", sans-serif;
 }
 .buttons {
+  display: flex;
+  margin: 0px;
   margin-top: 5vh;
+  justify-content: center;
+  gap: 10px;
 }
 .order-now {
   background-color: red;
@@ -123,4 +138,27 @@ header {
   font-family: "Roboto", sans-serif;
   color: rgb(255, 0, 0);
   text-decoration: none;
+}
+/* .right {
+  width: 27vw;
+  background: url(../../images/Pic_light.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 2vh 0vw 0vw 40vw;
+  scale: 1.2;
+}  */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #343434;
+  box-shadow: inset 0px 0px 15px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+  box-shadow: inset 0px 0px 10px rgb(33, 33, 33);
 }
