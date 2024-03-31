@@ -94,9 +94,12 @@ MAIN/
 │   ├── image10.png
 │   ├── image11.png
 │   ├── image12.png
+│   ├── image13.png
 │   ├── login.jpg
-│   ├── logo_dark.jpg
-│   └── logo_light.jpg
+│   ├── logo_dark.png
+│   ├── logo_light.png
+│   ├── Pic_dark.png
+│   └── Pic_light.png
 │
 ├── LICENSE
 ├── README.md
@@ -132,5 +135,5 @@ MAIN/
 >
 > **MTCodes01:** [GitHub Profile](https://github.com/MTCodes01)
 >
-> <blockquote> desc </blockquote>
+> <blockquote> Just a Guy who loves to code! </blockquote>
 
