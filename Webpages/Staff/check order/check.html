@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="check.css">
+
+</head>
+<body>
+
+    <div class="head">
+        <br>
+        <h2>Total Food Orders</h2>
+        <hr>
+    </div>
+
+    <div class="Tfood">
+
+        <div class="breakfast">
+        <h3>BREAKFAST</h3> 
+        <br>
+        <h5>Appam: 20</h5>
+        <h5>Chappathi: 10</h5>
+        </div>
+
+        <div class="curry">
+        <h3>CURRY</h3> 
+        <br>
+        <h5>Chicken Curry: 10</h5>
+        <h5>Fish Curry: 18</h5>
+        <h5>Potato Curry: 12</h5>
+        </div>
+
+        <div class="lunch">
+        <h3>LUNCH</h3> 
+        <br>
+        <h5>Pothichoru: 17</h5>
+        <h5>Biriyani: 27</h5>
+        </div>
+
+        <div class="fry">
+        <h3>FRY</h3> 
+        <br>
+        <h5>Fish Fry: 20</h5>
+        </div>
+
+        <div class="oml">
+        <h3>OMELETTE</h3> 
+        <br>
+        <h5>Single Omlette: 22</h5>
+        <h5>Double Omlette: 11</h5>
+        </div>
+
+        <div class="snack">
+        <h3>SNACK</h3> 
+        <br>
+        <h5>Puffs: 20</h5>
+        <h5>Banana Fry: 10</h5>
+        <h5>Samosa: 22</h5>
+        <h5>Cutlet: 8</h5>
+        </div>
+
+        <div class="hot">
+        <h3>HOT DRINKS</h3> 
+        <br>
+        <h5>Tea: 30</h5>
+        <h5>Coffee: 20</h5>
+        </div>
+
+        <div class="cold">
+        <h3>COLD DRINKS</h3> 
+        <br>
+        <h5>Sharjah: 20</h5>
+        <h5>Lime: 32</h5>
+        <h5>Ice Cream: 10</h5>
+        </div>
+
+    </div>
+    
+    <div class="head">
+
+        <div class="heading-with-search">
+            <h2>Individual Orders</h2>
+            <hr>
+            <div class="search-container">
+                <input type="text" placeholder="Name / Order ID" class="search-bar">
+                <button type="submit" class="search-button">Search</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="indv-detl">
+
+        <div class="bar" onclick="toggleItems(this)">
+            <div class="number">1</div>
+    
+            <div class="names">
+                <div class="name">Name</div>
+                <div class="id">#Order ID</div>
+            </div>
+
+                <div class="time">7:30 PM</div>
+                <div class="arrow">▼</div>    
+
+        </div>
+
+        <div class="bar">
+            <div class="number">2</div>
+    
+            <div class="names">
+                <div class="name">Name</div>
+                <div class="id">#Order ID</div>
+            </div>
+                <div class="time">10:00 PM</div>
+                <div class="arrow">▼</div>
+
+        </div>
+
+        <div class="bar">
+            <div class="number">3</div>
+    
+            <div class="names">
+                <div class="name">Name</div>
+                <div class="id">#Order ID</div>
+            </div>
+                <div class="time">1:00 AM</div>
+                <div class="arrow">▼</div>
+        </div>
+
+        <div class="bar">
+            <div class="number">4</div>
+    
+            <div class="names">
+                <div class="name">Name</div>
+                <div class="id">#Order ID</div>
+            </div>
+                <div class="time">5:00 PM</div>
+                <div class="arrow">▼</div>
+        </div>
+
+        <div class="bar">
+            <div class="number">5</div>
+    
+            <div class="names">
+                <div class="name">Name</div>
+                <div class="id">#Order ID</div>
+            </div>
+                <div class="time">11:30 AM</div>
+                <div class="arrow">▼</div>
+        </div>
+
+    </div>
+
+    <script src="check.js"></script>
+</body>
+</html>
