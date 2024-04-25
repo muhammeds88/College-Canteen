@@ -87,3 +87,12 @@ h5{
 .names{
     margin-right: 870px;
 }
+.camera {
+    text-align: end;
+}
+.camera img{
+    cursor: pointer;
+    width: 70px;
+    height: auto;
+    margin: 10px;
+}
