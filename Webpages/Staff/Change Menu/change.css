@@ -58,3 +58,47 @@ ul {
 li {
     margin-top: 5px;
 }
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+button{
+    outline: none;
+    border: none;
+    background: grey;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 3px;
+}
+ul li{
+    list-style: none;
+    user-select: none;
+    cursor: pointer;
+    position: relative;   
+}
+ul li span:hover{
+    background: #edeef0;
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 22px;
+    color: #555;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+}
