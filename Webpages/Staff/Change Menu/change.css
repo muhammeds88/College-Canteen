@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: 10px auto;
     background-color: gray;
     padding: 25px;
@@ -44,6 +44,7 @@ hr {
     background-color: lightgray;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 7px 10px 7px 10px;
 }
 
 .meal h3 {

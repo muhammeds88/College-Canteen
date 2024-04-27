@@ -20,22 +20,9 @@ function addtask(meal) {
 
         li.appendChild(span);
         listContainer.appendChild(li);
-        attachCloseButtonListener(meal); // Attach event listener to the new close button
+        saveData(meal); 
     }
     inputBox.value = "";
-    saveData(meal); 
-}
-
-function attachCloseButtonListener(meal) {
-    var listContainer = document.querySelector('.list-container-' + meal);
-    var closeButtons = listContainer.getElementsByClassName("close");
-    for (var i = 0; i < closeButtons.length; i++) {
-        closeButtons[i].addEventListener("click", function() {
-            var listItem = this.parentElement;
-            listItem.remove();
-            saveData(meal);
-        });
-    }
 }
 
 function saveData(meal) {
@@ -43,7 +30,7 @@ function saveData(meal) {
     localStorage.setItem(meal, listContainer.innerHTML); 
 }
 
-function showTasks() {
+function showtasks() {
     var meals = ['breakfast', 'curry', 'lunch', 'fry-omelette', 'snack', 'cold-drink'];
     meals.forEach(function (meal) {
         var listContent = localStorage.getItem(meal); 
@@ -55,4 +42,16 @@ function showTasks() {
     });
 }
 
-showTasks();
+function attachCloseButtonListener(meal) {
+    var listContainer = document.querySelector('.list-container-' + meal);
+    var closeButtons = listContainer.querySelectorAll(".close");
+    closeButtons.forEach(function(button) {
+        button.addEventListener("click", function() {
+            var listItem = this.parentElement;
+            listItem.remove();
+            saveData(meal);
+        });
+    });
+}
+
+showtasks();
