@@ -5,10 +5,9 @@ function addtask(meal) {
     if (inputBox.value === '') {
         alert("You must write something!");
     } else {
-        var li = document.createElement("li");
+        let li = document.createElement("li");
         li.innerHTML = inputBox.value;
-        
-        var span = document.createElement("span");
+        let span = document.createElement("span");
         span.innerHTML = "\u00d7";
         span.className = "close";
         
@@ -21,6 +20,7 @@ function addtask(meal) {
         li.appendChild(span);
         listContainer.appendChild(li);
         saveData(meal); 
+        attachCloseButtonListener(meal);
     }
     inputBox.value = "";
 }
@@ -37,7 +37,7 @@ function showtasks() {
         if (listContent) {
             var listContainer = document.querySelector('.list-container-' + meal); 
             listContainer.innerHTML = listContent;
-            attachCloseButtonListener(meal); // Attach event listener to the existing close buttons
+            attachCloseButtonListener(meal);
         }
     });
 }

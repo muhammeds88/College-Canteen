@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #itemForm {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        #itemForm h1 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-align: center;
+            color: #333;
+        }
+
+        #itemForm label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        #itemForm input[type="text"],
+        #itemForm input[type="number"],
+        #itemForm textarea,
+        #itemForm select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        #itemForm button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        #itemForm button:hover {
+            background-color: #0056b3;
+        }
+
+        .delete-button {
+            background-color: #ff4b4b;
+        }
+
+        .delete-button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <form id="itemForm">
+        <h1>Item Input</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" value="Default Item Name" required>
+
+        <label for="amount">Amount (Rs):</label>
+        <input type="number" id="amount" value="100" required>
+
+        <label for="description">Description:</label>
+        <textarea id="description" required>Default description</textarea>
+
+        <label for="rating">Rating (1-5):</label>
+        <input type="number" id="rating" min="1" max="5" value="5" required>
+
+        <label for="serves">Serves:</label>
+        <input type="number" id="serves" value="1" required>
+
+        <label for="category">Category:</label>
+        <select id="category" required>
+            <option value="cat1">Category 1</option>
+            <option value="cat2">Category 2</option>
+            <option value="cat3">Category 3</option>
+            <option value="cat4">Category 4</option>
+            <option value="cat5">Category 5</option>
+            <option value="cat6">Category 6</option>
+            <option value="cat7">Category 7</option>
+            <option value="cat8">Category 8</option>
+        </select>
+
+        <label for="image">Image:</label>
+        <input type="file" id="image" accept="image/*">
+
+        <button type="submit">Submit</button>
+        <button type="button" class="delete-button" onclick="deleteItems()">Clear All Items</button>
+    </form>
+    <script src="input.js"></script>
+</body>
+</html>
