@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(224, 223, 223);
+}
+
+.ml{
+    padding: 5vh 60vw 0vh 20vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.mr{
+    padding: 5vh 50vw 0vh 20vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.indv1{
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 5vh;
+    text-align: center;
+    margin: 7px 10px 7px 10px;
+}
+.indv2{
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 5vh;
+    text-align: center;
+    margin: 7px 10px 7px 10px;
+}
+
+.cof{
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+}
+.price_options button{
+    padding: 3px 5px 3px 3px;
+    background-color: rgb(157, 238, 157);
+    
+}
+
+.details{
+    padding-top: 3px;
+    border-radius: 5px;
+    background-color: rgb(225, 225 ,225);
+    text-align: center;
+}
