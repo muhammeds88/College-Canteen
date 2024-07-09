@@ -30,7 +30,7 @@ This [website](https://muhammeds88.github.io/College-Canteen/) is designed to de
 - [ ] Analytics Integration
 - [ ] Website Functionality
 - [ ] User Experience
-- [ ] Staff Page UI
+- [x] Staff Page UI
 - [ ] Staff Page Integration
 
 ## File Structure
