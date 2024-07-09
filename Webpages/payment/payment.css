@@ -1,58 +1,135 @@
-*{
+html, body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
 }
 
-body{
+body {
     background-color: rgb(224, 223, 223);
+    font-family: Arial, sans-serif;
 }
 
-.ml{
-    padding: 5vh 60vw 0vh 20vw;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.mr{
-    padding: 5vh 50vw 0vh 20vw;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
 }
 
-
-.indv1{
-    padding-top: 3px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    height: 5vh;
-    text-align: center;
-    margin: 7px 10px 7px 10px;
-}
-.indv2{
-    padding-top: 3px;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    height: 5vh;
-    text-align: center;
-    margin: 7px 10px 7px 10px;
-}
-
-.cof{
-    padding-top: 3px;
-    border-radius: 5px;
-    background-color: white;
-    text-align: center;
-}
-.price_options button{
-    padding: 3px 5px 3px 3px;
+.left-side {
+    width: 50%; 
     background-color: rgb(157, 238, 157);
-    
+    padding: 20px;
+    text-align: center;
 }
 
-.details{
+.vertical-line {
+    width: 3px;
+    height: 100%;
+    background-color: black;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.content-box {
+    background-color: cornsilk;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.cof {
     padding-top: 3px;
+    padding-bottom: 1px;
     border-radius: 5px;
-    background-color: rgb(225, 225 ,225);
     text-align: center;
+}
+
+.price-options button {
+    padding: 3px 5px;
+    margin: 5px;
+    background-color: rgb(167, 185, 167);
+    border-radius: 3px;
+    border: none;
+}
+
+.details {
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+.bill-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bill-label {
+    text-align: right;
+}
+
+.bill-amount {
+    margin-left: 10px;
+}
+
+.details h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.details hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.details h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.details h5 {
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+}
+
+.button button {
+    margin: 0 5px;
+    padding: 8px 16px;
+    background-color: rgb(187, 193, 199);
+    border: none;
+    border-radius: 3px;
+}
+
+.button button.button1 {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.button button.button2 {
+    background-color: #f44336;
+    color: white;
+}
+
+.button1.button1:hover{
+    background-color: #41c045;
+}
+.button2.button2:hover{
+    background-color: #f8564b;
 }
