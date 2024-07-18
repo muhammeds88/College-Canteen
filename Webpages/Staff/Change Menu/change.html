@@ -1,155 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
-    <link rel="stylesheet" href="change.css">
+    <link rel="stylesheet" href="style_change.css" />
 </head>
 <body>
-
     <div class="headg">
-    <h2>MENU</h2>
-    <h4>(DD/MM/YY) - Day</h4>
-    <hr>
+        <h1>MENU</h1>
+        <div class="date"></div>
+        <hr />
     </div>
-
+    <button id="modeToggle" class="mode-toggle">Light Mode</button>
+    <a href="../../FAQ/faq.html">FAQ</a>
     <div class="container">
-        <div class="menu">
-            
-            <div class="meal">
-                <h3>BREAKFAST</h3>
-                <ul>
-                    <li><input type="checkbox"> Appam</li>
-                    <li><input type="checkbox"> Idli</li>
-                    <li><input type="checkbox"> Dosa</li>
-                    <li><input type="checkbox"> Chapathi</li>
-                    <li><input type="checkbox"> Ney Roast</li>
-                    <li><input type="checkbox"> Puttu</li>
-                    <li><input type="checkbox"> Porotta</li>
-                    <li><input type="checkbox"> Masala Dosa</li>
-                    <li><input type="checkbox"> Poori Masala</li>
-                    <li><input type="checkbox"> Uppumavu</li>
-                    <li><input type="checkbox"> Idiyappam</li>
-
-                    <ul class="list-container-breakfast"> </ul>
-
-                    <div class="row">
-                        <input type="text" placeholder="Add Items" class="input-box-breakfast">
-                        <button onclick="addtask('breakfast')">Add</button>
-                    </div>
-
-                </ul>
+        <div class="checklist">
+            <div id="cat1" class="category">
+                <h4>Category 1</h4>
+                <hr />
+                <ul class="items_list"></ul>
             </div>
-
-            <div class="meal">
-                <h3>CURRY</h3>
-                <ul>
-                    <li><input type="checkbox"> Chicken Curry</li>
-                    <li><input type="checkbox"> Vegetable Curry</li>
-                    <li><input type="checkbox"> Beef Curry</li>
-                    <li><input type="checkbox"> Fish Curry</li>
-                    <li><input type="checkbox"> Egg Curry</li>
-                    <li><input type="checkbox"> Grean Beans</li>
-                    <li><input type="checkbox"> Kadala Curry</li>
-                    <li><input type="checkbox"> Potato Curry</li>
-
-                    <ul class="list-container-curry"></ul>
-
-                    <div class="row">
-                        <input type="text" placeholder="Add Items" class="input-box-curry">
-                        <button onclick="addtask('curry')">Add</button>
-                    </div>
-
-                </ul>
+            <div id="cat2" class="category">
+                <h4>Category 2</h4>
+                <hr />
+                <ul class="items_list"></ul>
             </div>
-
-            <div class="meal">
-                <h3>LUNCH</h3>
-                <ul>
-                    <li><input type="checkbox"> Pothichoru</li>
-                    <li><input type="checkbox"> Chicken Biriyani</li>
-                    <li><input type="checkbox"> Vegetable Biriyani</li>
-                    <li><input type="checkbox"> Egg Biriyani</li>
-                    <li><input type="checkbox"> Beef Biriyani</li>
-                    <li><input type="checkbox"> Egg Noodles</li>
-                    <li><input type="checkbox"> Chicken Noodles</li>
-
-                    <ul class="list-container-lunch"></ul>
-
-                    <div class="row">
-                        <input type="text" placeholder="Add Items" class="input-box-lunch">
-                        <button onclick="addtask('lunch')">Add</button>
-                    </div>
-
-                </ul>
+            <div id="cat3" class="category">
+                <h4>Category 3</h4>
+                <hr />
+                <ul class="items_list"></ul>
             </div>
-
-            <div class="meal">
-                <h3>FRY/OMELETTE</h3>
-                <ul>
-                    <li><input type="checkbox"> Omelette Single</li>
-                    <li><input type="checkbox"> Omelette Double</li>
-                    <li><input type="checkbox"> Chicken Fry</li>
-                    <li><input type="checkbox"> Fish Fry</li>
-                    <li><input type="checkbox"> Beef Fry</li>
-
-                    <ul class="list-container-fry-omelette"></ul>
-                    
-                    <div class="row">
-                        <input type="text" placeholder="Add Items" class="input-box-fry-omelette">
-                        <button onclick="addtask('fry-omelette')">Add</button>
-                    </div>
-
-                </ul>
+            <div id="cat4" class="category">
+                <h4>Category 4</h4>
+                <hr />
+                <ul class="items_list"></ul>
             </div>
-
-            <div class="meal">
-                <h3>SNACK</h3>
-                <ul>
-                    <li><input type="checkbox"> Baji</li>
-                    <li><input type="checkbox"> Banana Fry</li>
-                    <li><input type="checkbox"> Parippu Vada</li>
-                    <li><input type="checkbox"> Ulli Vada</li>
-                    <li><input type="checkbox"> Uzhunnu Vada</li>
-                    <li><input type="checkbox"> Neyyappam</li>
-                    <li><input type="checkbox"> Veg Cutlet</li>
-                    <li><input type="checkbox"> Chicken Cutlet</li>
-                    <li><input type="checkbox"> Masala Bonda</li>
-
-                    <ul class="list-container-snack"></ul>
-
-                    <div class="row">
-                        <input type="text" placeholder="Add Items" class="input-box-snack">
-                        <button onclick="addtask('snack')">Add</button>
-                    </div>
-
-                </ul>
+            <div id="cat5" class="category">
+                <h4>Category 5</h4>
+                <hr />
+                <ul class="items_list"></ul>
             </div>
-
-            <div class="meal">
-                <h3>COLD DRINK</h3>
-                <ul>
-                    <li><input type="checkbox"> Sarbath</li>
-                    <li><input type="checkbox"> Lemonade</li>
-                    <li><input type="checkbox"> Sharjah</li>
-                    <li><input type="checkbox"> Ice Cream</li>
-                    <li><input type="checkbox"> Fruit Salad</li>
-                    <li><input type="checkbox"> Ice Cream-Sharjah</li>
-
-                    <ul class="list-container-cold-drink"></ul>
-
-                    <div class="row">
-                        <input type="text" placeholder="Add Items" class="input-box-cold-drink">
-                        <button onclick="addtask('cold-drink')">Add</button>
-                    </div>
-
-                </ul>
+            <div id="cat6" class="category">
+                <h4>Category 6</h4>
+                <hr />
+                <ul class="items_list"></ul>
             </div>
-    
+            <div id="cat7" class="category">
+                <h4>Category 7</h4>
+                <hr />
+                <ul class="items_list"></ul>
+            </div>
+            <div id="cat8" class="category">
+                <h4>Category 8</h4>
+                <hr />
+                <ul class="items_list"></ul>
+            </div>
         </div>
+        <button id="saveButton" class="save-button" disabled>Save</button>
+        <!-- <button id="addButton" class="save-button" onclick="addItems()">Add Items</button> -->
+        <button type="button" class="delete-button" onclick="deleteItems()">Clear All Items</button>
     </div>
-
-    <script src="change.js"></script>
+    <script src="script.js"></script>
+    <!-- <script src="test.js"></script> -->
 </body>
 </html>

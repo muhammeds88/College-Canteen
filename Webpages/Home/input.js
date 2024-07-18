@@ -32,12 +32,12 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Function to save item to localStorage
     function saveItem(item) {
-      const items = JSON.parse(localStorage.getItem("items")) || {};
+      const items = JSON.parse(localStorage.getItem("Items")) || {};
       if (!items[item.category]) {
         items[item.category] = [];
       }
       items[item.category].push(item);
-      localStorage.setItem("items", JSON.stringify(items));
+      localStorage.setItem("Items", JSON.stringify(items));
       alert('Item added successfully!'); // Add an alert to confirm the item was added
   
       // Optionally, you can refresh the page or update dynamically here

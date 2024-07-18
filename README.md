@@ -30,7 +30,7 @@ This [website](https://muhammeds88.github.io/College-Canteen/) is designed to de
 - [ ] Analytics Integration
 - [ ] Website Functionality
 - [ ] User Experience
-- [x] Staff Page UI
+- [ ] Staff Page UI
 - [ ] Staff Page Integration
 
 ## File Structure
@@ -94,12 +94,9 @@ MAIN/
 │   ├── image10.png
 │   ├── image11.png
 │   ├── image12.png
-│   ├── image13.png
 │   ├── login.jpg
-│   ├── logo_dark.png
-│   ├── logo_light.png
-│   ├── Pic_dark.png
-│   └── Pic_light.png
+│   ├── logo_dark.jpg
+│   └── logo_light.jpg
 │
 ├── LICENSE
 ├── README.md
@@ -135,5 +132,5 @@ MAIN/
 >
 > **MTCodes01:** [GitHub Profile](https://github.com/MTCodes01)
 >
-> <blockquote> Just a Guy who loves to code! </blockquote>
+> <blockquote> desc </blockquote>
 
