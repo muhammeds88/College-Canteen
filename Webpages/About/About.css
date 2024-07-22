@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #000, #FF4400);
+    margin: 0;
+    padding: 0;
+}
+
+.about-container {
+    background-color: rgb(218, 217, 217);
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-container h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #666;
+}
