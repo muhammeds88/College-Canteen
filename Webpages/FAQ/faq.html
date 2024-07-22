@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>College Canteen</title>
+    <link rel="stylesheet" href="faq.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="top">
+      <div class="logo">
+        <p class="l1">College</p>
+        <p class="l2">Canteen</p>
+      </div>
+      <nav class="navbar">
+        <a href="../Home/home.html">Home</a>
+        <a href="#">About</a>
+        <a href="../FAQ/faq.html" class="active">FAQs</a>
+        <a href="../Account/account.html">Account</a>
+      </nav>
+    </div>
+    <a href="../Staff/Change Menu/change.html">Change</a>
+    <!-- <div class="background-animation"></div> -->
+    <!-- <svg viewBox="0 0 200 200" class="shape shape1">
+      <path
+        fill="#FF0066"
+        d="M53.1,-16.9C62.3,10.9,58.6,43.3,40.6,56.5C22.6,69.8,-9.8,63.9,-31,47.4C-52.2,30.9,-62.2,3.7,-55.2,-21.2C-48.2,-46,-24.1,-68.6,-1.1,-68.2C22,-67.9,44,-44.7,53.1,-16.9Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape2">
+      <path
+        fill="#007bff"
+        d="M67.9,-20.6C74.9,-0.6,58.4,28.5,37.8,40.7C17.3,52.9,-7.2,48.2,-26.8,34.5C-46.5,20.8,-61.2,-1.9,-56,-19.6C-50.7,-37.3,-25.3,-49.8,2.6,-50.7C30.5,-51.5,61,-40.6,67.9,-20.6Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape3">
+      <path
+        fill="#3357ff"
+        d="M60.2,-17.2C66.7,0.3,52.8,26.9,31.3,42.3C9.8,57.7,-19.2,62,-40,48.4C-60.8,34.8,-73.5,3.4,-65.5,-16.2C-57.4,-35.9,-28.7,-43.7,-0.9,-43.4C26.9,-43.1,53.8,-34.7,60.2,-17.2Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape4">
+      <path
+        fill="#ff33a1"
+        d="M29.3,1.3C38.5,19.1,47.1,47.9,32.8,62.3C18.5,76.8,-18.7,76.8,-40.4,60C-62.2,43.2,-68.5,9.4,-59.2,-8.4C-49.8,-26.3,-24.9,-28.2,-7.5,-25.8C10,-23.4,20,-16.6,29.3,1.3Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape5">
+      <path
+        fill="#00cc99"
+        d="M52.1,-13.2C60.6,9.2,55.8,39.6,36.9,54.1C18,68.6,-14.9,67.2,-37.8,50.8C-60.7,34.4,-73.7,3.1,-65.8,-18.6C-57.8,-40.2,-28.9,-52.3,-3.5,-51.2C21.8,-50,43.7,-35.6,52.1,-13.2Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape6">
+      <path
+        fill="#ff6633"
+        d="M41.7,-69.9C55.4,-64.4,68.8,-55.9,72.9,-43.8C77,-31.6,71.7,-15.8,66.5,-3C61.3,9.8,56.1,19.6,50.1,28.3C44,37,37.1,44.6,28.6,50.7C20.1,56.7,10.1,61.1,0.2,60.8C-9.7,60.5,-19.4,55.5,-32.7,52.2C-46.1,49,-63.1,47.6,-69.8,39.2C-76.4,30.8,-72.8,15.4,-69.6,1.8C-66.4,-11.7,-63.7,-23.5,-57.7,-33.1C-51.8,-42.8,-42.6,-50.4,-32.5,-57.9C-22.3,-65.5,-11.2,-73.1,1.4,-75.6C14,-78,28,-75.4,41.7,-69.9Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape7">
+      <path
+        fill="#ffcc00"
+        d="M37.1,-10.1C42.4,4.5,37.3,24.4,27.5,29.6C17.6,34.8,3.1,25.3,-12.7,14.5C-28.5,3.7,-45.5,-8.3,-43.6,-18.1C-41.7,-27.8,-20.9,-35.3,-2.5,-34.5C15.9,-33.7,31.7,-24.6,37.1,-10.1Z"
+        transform="translate(100 100)"
+      />
+    </svg>
+    <svg viewBox="0 0 200 200" class="shape shape8">
+      <path
+        fill="#FFD6E8"
+        d="M28.2,-45.6C39,-42.6,52,-40,60.9,-32.5C69.8,-25,74.6,-12.5,75.4,0.4C76.1,13.3,72.7,26.7,65.2,36.6C57.7,46.6,46.1,53.2,34.6,60C23,66.8,11.5,73.7,-1.3,76C-14.1,78.2,-28.2,75.7,-41.2,69.8C-54.2,63.9,-66.2,54.5,-71.8,42.3C-77.3,30.1,-76.5,15,-72.9,2.1C-69.2,-10.9,-62.9,-21.7,-56.5,-32.6C-50.2,-43.5,-44,-54.4,-34.5,-58.2C-25.1,-62,-12.6,-58.8,-1.9,-55.4C8.7,-52.1,17.3,-48.6,28.2,-45.6Z"
+        transform="translate(100 100)"
+      />
+    </svg> -->
+    <div class="faq-wrapper">
+      <div class="faq-container">
+        <div class="btn-back faq-back"></div>
+        <div class="btn-front">
+          <h1>Frequently Asked Questions</h1>
+          <div class="faq-item">
+            <button class="faq-question">
+              What are the canteen operating hours?
+            </button>
+            <div class="faq-answer">
+              <p>
+                The canteen is open from 8:00 AM to 4:00 PM from Monday to
+                Saturday. It remains closed on Sundays and public holidays.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              What types of food are available in the canteen?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Our Canteen offers a variety of food options including breakfast
+                items, hot meals, snacks, and beverages.<br />There are both
+                vegetarian and non-vegetarian options available.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              How can I find out about Items available?
+            </button>
+            <div class="faq-answer">
+              <p>
+                You can check the Order Now section in the Homepage of the
+                College Canteen Website for checking the Items available
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Can I pre-order meals?</button>
+            <div class="faq-answer">
+              <p>
+                Yes, you can pre-order meals through our the College Canteen
+                website.<br />Although Online Payment is not available yet.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              What payment methods are accepted?
+            </button>
+            <div class="faq-answer">
+              <p>
+                The website doesn't support online payment yet.<br />For direct
+                payments at Canteen - Cash, Gpay, PhonePay, etc are accepted.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="faq.js"></script>
+  </body>
+</html>

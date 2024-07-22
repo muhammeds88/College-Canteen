@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Management - College Canteen</title>
+    <link rel="stylesheet" href="account.css">
+</head>
+<body class="light-mode">
+    <div class="top">
+        <div class="logo">
+          <p class="l1">College</p>
+          <p class="l2">Canteen</p>
+        </div>
+        <nav class="navbar">
+          <a href="#" class="active">Home</a>
+          <a href="../../Webpages/Account/account.html">About</a>
+          <a href="#">FAQs</a>
+          <a href="#">Account</a>
+        </nav>
+      </div>
+
+    <main>
+
+        <section id="account">
+            <h1>Account Management</h1>
+            <div class="account-details">
+                <h2>Update Your Details</h2>
+                <form id="update-form">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                    <button type="submit">Update Details</button>
+                </form>
+            </div>
+
+            <div class="order-history">
+                <h2>Past Orders</h2>
+                <ul id="orders-list">
+                    <!-- Orders will be dynamically inserted here -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <script src="account.js"></script>
+</body>
+</html>

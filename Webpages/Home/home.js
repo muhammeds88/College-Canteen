@@ -2,10 +2,12 @@ document.addEventListener("DOMContentLoaded", function () {
   // Homepage Script
   const categories = document.querySelectorAll(".category-content");
   if (categories.length > 0) {
-    const items = JSON.parse(localStorage.getItem("items")) || {};
+    const items = JSON.parse(localStorage.getItem("Items")) || {};
 
     Object.keys(items).forEach((category) => {
-      const categoryContent = document.getElementById(category)?.querySelector(".category-content");
+      const categoryContent = document
+        .getElementById(category)
+        ?.querySelector(".category-content");
       if (categoryContent) {
         items[category].forEach((item) => {
           const card = document.createElement("div");
@@ -20,7 +22,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     <div class="amount">Rs. ${item.amount}</div>
                 </div>
                 <div class="mid">
-                    <div class="rating">${"★".repeat(item.rating)}${"☆".repeat(5 - item.rating)}</div>
+                    <div class="rating">${"★".repeat(item.rating)}${"☆".repeat(
+            5 - item.rating
+          )}</div>
                 </div>
                 <div class="bottom">
                     <div class="description">${item.description}</div>
@@ -45,23 +49,27 @@ document.addEventListener("DOMContentLoaded", function () {
 
           let quantity = 0;
           const quantitySpan = card.querySelector(".quantity");
-          card.querySelector(".increase").addEventListener("click", function () {
-            quantity++;
-            quantitySpan.textContent = quantity;
-          });
-
-          card.querySelector(".decrease").addEventListener("click", function () {
-            if (quantity > 0) {
-              quantity--;
+          card
+            .querySelector(".increase")
+            .addEventListener("click", function () {
+              quantity++;
               quantitySpan.textContent = quantity;
-            }
-          });
+            });
+
+          card
+            .querySelector(".decrease")
+            .addEventListener("click", function () {
+              if (quantity > 0) {
+                quantity--;
+                quantitySpan.textContent = quantity;
+              }
+            });
         });
       } else {
         console.error(`Category element with id ${category} not found`);
       }
     });
   } else {
-    console.error('No categories found on the page');
+    console.error("No categories found on the page");
   }
 });
